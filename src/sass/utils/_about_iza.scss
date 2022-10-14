@@ -115,6 +115,24 @@ img {
     max-width: 100%;
 }
 }
-.button {
-    
+.button-about {
+    width: 176px;
+    color:var($dark-red);
+    border: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 44px;
+    padding: 0 17px;
+    cursor: pointer;
+    background: var($white);
+    border-radius: 22px;
+    width: 176px;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+text-align: center;
 }
