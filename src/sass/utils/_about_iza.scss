@@ -13,7 +13,7 @@ padding: 125px 20px 40px;
 .about__section {
     background: var($dark-pink);
     @media screen and (max-width: 767px) {
-    background-image: url("../images/about-iza/mobile/background__mobile.png");
+    background-image: url("../src/images/about-iza/mobile/background__mobile.png");
     background-repeat: no-repeat;
     background-position: 0 85%;}
     @media screen and (min-width: 1200px) {
