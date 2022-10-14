@@ -19,6 +19,18 @@
 
 .products__item--ice-cream {
   background-color: $pink;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-image: url('../images/products-af/home-pic1-mobile1x.png');
+  }
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .products__item--ice-cream::before {
+    background-image: url('../images/products-af/home-pic1-mobile2x.png');
+  }
 }
 
 .products__item--ice-coffee {
