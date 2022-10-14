@@ -31,19 +31,20 @@ $font-size-tablet: (
   'big': 28px,
   'medium': 26px,
   'small': 22px,
-  'smallest': 20px,
-  'smaller': 8px,
+  'smaller': 20px,
+  'smallest': 8px,
 );
 
 /* Font Size Smartphones*/
-$font-size-phones: (
+$font-size-mobile: (
+  'huge': 48px,
   'biggest': 36px,
   'bigger': 34px,
   'big': 26px,
   'medium': 20px,
   'small': 18px,
-  'smallest': 12px,
-  'smaller': 8px,
+  'smalleer': 12px,
+  'smallest': 8px,
 );
 
 /* Letter Spacing */
