@@ -11,10 +11,59 @@ padding: 125px 20px 40px;
 }
 }
 .about__section {
-    background-color: #fff5f6;
+    background: var($dark-pink);
     @media screen and (max-width: 767px) {
-    background-image: url(/src/images/about-iza/mobile/background__mobile.png);
+    background-image: url("../images/about-iza/mobile/background__mobile.png");
     background-repeat: no-repeat;
-    background-position: 0 85%;
+    background-position: 0 85%;}
+    @media screen and (min-width: 1200px) {
+        background-image: url("../images/about-iza/desktop/background_desktop.png");
+        background-repeat: no-repeat;
+        background-position: 0 95%;
+        background-size: contain; 
+    }
 }
+
+.container-about {
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 480px;
+}
+.about__label {
+    display: block;
+    text-align: center;
+    font-family: Titan One,cursive;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var($dark-pink);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about__title {
+    font-family: Titan One,cursive;
+    color: var($dark-red);
+    font-size: 34px;
+    line-height: 1.18;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+.about__content {
+    @media screen and (max-width: 767px) {
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
